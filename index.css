@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light blue resembling sky */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #6495ED; /* Light blue resembling sky */
+    color: #fff;
+    padding: 1rem 0;
+    border-radius: 0 0 20px 20px; /* Rounded top corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #87CEFA, #FFFFFF); /* Gradient resembling clouds */
+    text-align: center;
+    border-radius: 20px; /* Rounded corners */
+    padding: 50px 0; /* Increased padding */
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #6495ED; /* Light blue resembling sky */
+    color: #fff;
+    padding: 0.8rem 1.5rem; /* Increased padding */
+    text-decoration: none;
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #4169E1; /* Darker blue */
+}
+
+.services {
+    background: #fff; /* White background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+}
+
+.services .service {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Light border between services */
+}
+
+footer {
+    background: #6495ED; /* Light blue resembling sky */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 20px 20px 0 0; /* Rounded bottom corners */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
